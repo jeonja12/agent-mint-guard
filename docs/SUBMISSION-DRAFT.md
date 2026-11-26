@@ -9,10 +9,10 @@ Agent Mint Guard
 On-chain safety policies for AI agents: your agent's spending caps, approval bans and allowlists — enforced by a BNB Chain contract, gated by your Binance Agent ID.
 
 ## Website
-[SETELAH DEPLOY] GitHub Pages dari repo publik (frontend/index.html di repo ini adalah sumbernya).
+https://jeonja12.github.io/agent-mint-guard/ (repo: https://github.com/jeonja12/agent-mint-guard)
 
 ## Contract address(es) — BNB Chain
-[SETELAH DEPLOY] AgentMintGuard: 0x… (BscScan: verified, open-source, Solidity 0.8.24)
+AgentMintGuard: 0x521dc2568015cAc76e6f773A231f88d69ea5537b (BscScan: https://bscscan.com/address/0x521dc2568015cAc76e6f773A231f88d69ea5537b — Sourcify exact_match, open-source, Solidity 0.8.24)
 Agent ID registry yang dipakai (resmi, bukan milik kami): 0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F
 
 ## Agent ID usage description (EN — siap tempel)
@@ -40,9 +40,9 @@ Agent Mint Guard memindahkan aturan keamanan agent AI ke on-chain BNB Chain. Pem
 - [SETELAH DEPLOY] Jumlah interaktor Agent ID unik: angka dari `totalUniqueAgentIdInteractors` — tulis apa adanya, jangan dibulatkan ke atas.
 
 ## Yang masih kurang sebelum submit (checklist)
-- [ ] Persetujuan deploy dari Richard + jalur deploy (BAW re-pair / Rabby).
-- [ ] Kontrak live di BSC mainnet + verifikasi BscScan.
-- [ ] Repo GitHub publik + website GitHub Pages live.
-- [ ] Interaksi pertama oleh henz.ai tercatat.
+- [x] Persetujuan deploy dari Richard + jalur deploy (BAW re-pair / Rabby). — jalur A, 26 Nov 20:54 WIB
+- [x] Kontrak live di BSC mainnet + verifikasi BscScan. — 0x521dc2568015cAc76e6f773A231f88d69ea5537b, Sourcify exact_match 60003997
+- [x] Repo GitHub publik + website GitHub Pages live. — github.com/jeonja12/agent-mint-guard
+- [x] Interaksi pertama oleh henz.ai tercatat. — setPolicy + guard check + anchorVerdict (docs/DEPLOYMENT.md)
 - [ ] ≥30 interaktor Agent ID unik (lihat OUTREACH-30.md) — untuk kelayakan Innovation.
 - [ ] Postingan X Richard tentang proyek (sekaligus ikut Community Campaign $2.000).

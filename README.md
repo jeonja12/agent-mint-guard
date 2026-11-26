@@ -3,10 +3,12 @@
 On-chain safety policies for AI agents on BNB Chain, gated by Binance Agent ID (.ai).
 Built for the **Binance Wallet × BNB Chain Agent ID Hackathon** (submissions close 9 Dec 2026, 15:00 WIB).
 
-## Status (26 Nov 2026)
-- ✅ Contract written + **14/14 Foundry tests pass** locally
-- ✅ Exact deployment gas measured: **1,162,489 gas** (≈ 0.00005812 BNB ≈ $0.03 at 0.05 gwei)
-- ⛔ **NOT deployed yet** — deployment needs the builder's explicit approval (real BNB gas + wallet re-pair). See `docs/DEPLOY-PLAN.md`.
+## Status (26 Nov 2026) — LIVE ON BNB CHAIN
+- ✅ **Deployed: `0x521dc2568015cAc76e6f773A231f88d69ea5537b`** (BscScan: https://bscscan.com/address/0x521dc2568015cAc76e6f773A231f88d69ea5537b)
+- ✅ Deployed from the builder's Binance Agentic Wallet (**henz.ai**) via the Arachnid CREATE2 proxy — deploy tx `0xc6e488552be32e6c07c114208fb3305a82347d67606c94e0fac26eb6c6284aed`, gas used 1,165,153. Full record: `docs/DEPLOYMENT.md`.
+- ✅ **Sourcify verified — exact match** (creation + runtime), matchId 60003997.
+- ✅ First interactions by henz.ai recorded on-chain: free-only policy set, first guard check, first audit verdict anchored. Counters: 1 unique Agent ID interactor, 1 guard check, 1 policy, 1 attestation.
+- ✅ Contract written + **14/14 Foundry tests pass** locally.
 
 ## What it does
 An Agent ID holder registers a safety policy on-chain (per-tx value cap, daily cap,
