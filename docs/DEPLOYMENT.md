@@ -44,4 +44,8 @@ guard checks **1**, policies set **1**, attestations **1**.
 
 ## Wallet state
 - BAW BNB before deploy: 0.002630136712954295 BNB (after Richard's 0.0016 BNB top-up)
+- BAW BNB after all 4 transactions: **0.002498044806836665 BNB**
+- **Total wallet spend for deploy + 3 interactions: 0.00013209190611763 BNB** (balance delta;
+  receipts: deploy 1,165,153 gas, setPolicy 145,884, guard check 68,668 — an earlier
+  in-chat estimate of ~0.0000721 BNB was based on an intermediate balance read and is superseded)
 - Developer Mode: ON (expires 2026-12-03) · BAW session: CONNECTED (until 2026-11-28 21:07 WIB inactive-signout)
