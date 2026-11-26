@@ -22,12 +22,19 @@ simulation OK, no risks, no authority changes):
 - **Deploy tx: `0xc6e488552be32e6c07c114208fb3305a82347d67606c94e0fac26eb6c6284aed`**
 - Block: 135,862,587 · Status: success · Gas used: **1,165,153**
   (local direct-CREATE measurement was 1,162,489; +2,664 is the proxy overhead)
-- Cost at 0.05 gwei ≈ 0.0000583 BNB
+- Cost at 0.05 gwei ≈ 0.0000583 BNB (estimate; BscScan shows the actual deploy tx fee as
+  0.000104623513121094 BNB — effective gas price ≈ 0.09 gwei)
+- **BscScan labels the sender "henz.ai"** on the deploy tx page (screenshot from Richard,
+  26 Nov 22:27 WIB) — public proof the deployment came from the Agent ID wallet.
 
 ## Verification
 - **Sourcify: exact_match (creation + runtime), matchId 60003997, verified 2026-11-26T14:30:33Z**
   https://sourcify.dev/#/lookup/0x521dc2568015cAc76e6f773A231f88d69ea5537b
-- BscScan display status: checked separately (BscScan imports Sourcify matches).
+- **BscScan: "Source Code Verified — Exact Match"** on the Contract tab (green check),
+  contract name AgentMintGuard, compiler v0.8.24+commit.e11b9ed9, optimizer 200 runs,
+  cancun — confirmed via Richard's own screenshot, 26 Nov 22:33 WIB. BscScan also labels
+  the deployer "henz.ai" and decoded the first setPolicy call. ALL technical submission
+  requirements are now met.
 
 ## First interactions — all from henz.ai (BAW 0xc73442B8…91AA)
 1. `setPolicy(0, 0, true, false)` — free-only policy
