@@ -45,4 +45,4 @@ Agent Mint Guard memindahkan aturan keamanan agent AI ke on-chain BNB Chain. Pem
 - [x] Repo GitHub publik + website GitHub Pages live. — github.com/jeonja12/agent-mint-guard
 - [x] Interaksi pertama oleh henz.ai tercatat. — setPolicy + guard check + anchorVerdict (docs/DEPLOYMENT.md)
 - [ ] ≥30 interaktor Agent ID unik (lihat OUTREACH-30.md) — untuk kelayakan Innovation.
-- [ ] Postingan X Richard tentang proyek (sekaligus ikut Community Campaign $2.000).
+- [x] Postingan X Richard tentang proyek (sekaligus ikut Community Campaign $2.000). — UTAMA @hendririza0904 https://x.com/hendririza0904/status/2125967584915079461 + quote @riza1202 https://x.com/riza1202/status/2125969984383848924 (26 Nov 2026)
